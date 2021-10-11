@@ -25,6 +25,39 @@
 
 <img src="../Images/turkeylogo.png" class="center" alt="A Picture of a crazy turkey head inside of a chicken drum leg.">
 
+<h1>Order Our Games Here</h1>
+
+<section id="order-form">
+  <h2>Add Information</h2>
+  <form action="complete-order.html" method="POST">
+    <section id="order-details">
+        <fieldset>
+            <legend>User Details</legend>
+
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Ex. Gustavo" required>
+            <br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Ex. Percastre" required>
+            <br>
+
+            <label for="email-address">Email Address:</label>
+            <input type="email" name="email-address" id="email-address" placeholder="Ex. angelpercastre293@gmail.com" required>
+            <br>
+
+            <p>
+              Pick Up Preference <br>
+              <input type="radio" name="order-preference" id="code" checked>
+              <label for="digital">Digital Code</label>
+              <input type="radio" name="order-preference" id="mail">
+              <label for="mailbox">P.O Box</label>
+          </p>
+        </fieldset>
+    </section>
+  </form>
+</section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
