@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 body
 {
     background: radial-gradient(red, yellow);
     color: black;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1
 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+p
+{
+    font-family: 'Comfortaa', cursive;
+}
 a:link 
 {
     color: darkgreen;
+    font-family: 'Comfortaa', cursive;
 }
 
 a:active 
@@ -42,6 +52,11 @@ a:hover, a:focus
     text-align: center;
     padding: 5em;
     font-size: 1.5em;
+}
+.normal-text
+{
+    font-size: 2em;
+    text-align: center;
 }
 #order-form
 {
