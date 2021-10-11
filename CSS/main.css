@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 body
 {
-    background: radial-gradient(red, yellow);
+    background: radial-gradient(orange, brown);
     color: black;
     height: 100%;
     margin: 0;
@@ -34,7 +34,7 @@ a:visited
 }
 a:hover, a:focus 
 {
-    color: red;
+    color: darkred !important;
 }
 .center 
 {
@@ -44,7 +44,7 @@ a:hover, a:focus
 }
 .row
 {
-   padding: 7em;
+    padding: 7em;
 }
 .contact
 {
@@ -57,6 +57,24 @@ a:hover, a:focus
 {
     font-size: 2em;
     text-align: center;
+}
+.card
+{
+    background: transparent;
+}
+.btn
+{
+    background-color: white !important;
+
+}
+.games
+{
+    border-color: darkred; 
+    border-width: .25em; 
+    border-style: inset;
+    margin: 5em;
+    text-align: center;
+    background-color: transparent;
 }
 #order-form
 {
