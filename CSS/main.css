@@ -1,10 +1,30 @@
 body
 {
     background: radial-gradient(red, yellow);
+    color: black;
 }
 h1
 {
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:link 
+{
+    color: darkgreen;
+}
+
+a:active 
+{
+    color: black;
+}
+
+a:visited 
+{
+    color: darkgreen;
+}
+a:hover, a:focus 
+{
+    color: red;
 }
 .center 
 {
@@ -15,4 +35,12 @@ h1
 .row
 {
    padding: 7em;
+}
+.contact
+{
+    border: darkred .5em solid;
+    text-align: center;
+    padding: 5em;
+    margin: auto;
+    font-size: 1.5em;
 }
