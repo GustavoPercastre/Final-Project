@@ -19,13 +19,12 @@ h1
 h2 , h3
 {
     text-align: center;
-    padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p, label, legend
 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive !important;
 }
 a:link 
 {
@@ -49,17 +48,23 @@ a:hover, a:focus
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.row
-{
-    padding: 7em;
+    padding-bottom: 2em;
 }
 .contact
 {
     border: darkred .5em solid;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
     padding: 5em;
     font-size: 1.5em;
+    color: darkorange;
+    background: rgba(0, 0, 0, 0.4);
+}
+.row
+{
+    padding: 7em;
 }
 .normal-text
 {
@@ -100,4 +105,13 @@ a:hover, a:focus
     padding: 5em;
     font-size: 1.5em;
     background-color: rgba(83, 85, 207, 0.5);
+}
+#game-map
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+
+    width: 75%;
+    height: 75%;
 }
