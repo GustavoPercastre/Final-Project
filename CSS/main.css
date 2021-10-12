@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 body
 {
@@ -11,10 +12,18 @@ body
 h1
 {
     text-align: center;
+    padding-top: .5em;
+    font-family: 'Are You Serious', cursive;
+    font-size: 5em;
+}
+h2 , h3
+{
+    text-align: center;
+    padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p
+p, label, legend
 {
     font-family: 'Comfortaa', cursive;
 }
@@ -23,12 +32,10 @@ a:link
     color: darkgreen;
     font-family: 'Comfortaa', cursive;
 }
-
 a:active 
 {
-    color: black;
+    color: darkorange !important;
 }
-
 a:visited 
 {
     color: darkgreen;
@@ -61,7 +68,8 @@ a:hover, a:focus
 }
 .card
 {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    color: darkorange;
 }
 .btn
 {
@@ -75,7 +83,12 @@ a:hover, a:focus
     border-style: inset;
     margin: 5em;
     text-align: center;
-    background-color: transparent;
+    color: darkorange;
+    background-color: rgba(139, 0, 0, 0.8);
+}
+.nav-link
+{
+    color: black !important;
 }
 #order-form
 {
@@ -86,4 +99,5 @@ a:hover, a:focus
     margin-right: auto;
     padding: 5em;
     font-size: 1.5em;
+    background-color: rgba(83, 85, 207, 0.5);
 }
