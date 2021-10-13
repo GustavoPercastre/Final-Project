@@ -26,6 +26,13 @@ p, label, legend
 {
     font-family: 'Comfortaa', cursive !important;
 }
+footer
+{
+    color: white;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 1em;
+}
 a:link 
 {
     color: darkgreen;
@@ -94,6 +101,10 @@ a:hover, a:focus
 .nav-link
 {
     color: black !important;
+}
+.secret-background
+{
+    background: black;
 }
 #order-form
 {
