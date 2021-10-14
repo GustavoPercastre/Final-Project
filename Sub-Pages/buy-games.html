@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/main.css">
 </head>
-<body>
-<section class="navigation-bar">  
+<body>  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
@@ -26,10 +25,10 @@
           </div>
         </div>
       </nav>
-</section>
 
-<h1>CrazyTurkey Gaming</h1>
-
+<div class="logo">
+CrazyTurkey Gaming
+</div>
 
 <img src="../Images/turkeylogo.png" class="center" alt="A Picture of a crazy turkey head inside of a chicken drum leg.">
 
@@ -40,7 +39,7 @@
   <form action="complete-order.html" method="POST">
     <section id="order-details">
         <fieldset>
-            <legend>User Details</legend>
+            <h3>User Details</h3>
 
             <label for="first-name">First Name:</label>
             <input type="text" name="first-name" id="first-name" placeholder="Ex. Gustavo" required>
@@ -50,7 +49,7 @@
             <input type="text" name="last-name" id="last-name" placeholder="Ex. Percastre" required>
             <br>
 
-            <label for="po-box">P.O Box:</label>
+            <label id="po-box">P.O Box:</label>
             <input type="text" name="po-box" id="pobox" placeholder="Ex. P.O 111" required>
             <br>
 
@@ -61,13 +60,12 @@
             <p>
               Pick Up Preference <br>
               <input type="radio" name="order-preference" id="code" checked>
-              <label for="digital">Digital Code</label>
+              <label id="digital">Digital Code</label>
               <input type="radio" name="order-preference" id="mail">
-              <label for="mailbox">P.O Box</label>
+              <label id="mailbox">P.O Box</label>
           </p>
 
-          <legend>Game Choices</legend>
-                    <label for="games">Choose Some Games:</label>
+                    <label id="games">Choose Some Games:</label>
                     <p>
                       
                       <input type="checkbox" name="games" class="game-choice" id="minecraft" required>
@@ -87,6 +85,10 @@
     </section>
   </form>
 </section>
+
+<footer>
+  <p>&copy; GustavoPercastre</p>
+</footer>
 
 <script>
 
@@ -111,10 +113,6 @@
 </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-</body>
 
-<footer>
-  <p>&copy; GustavoPercastre</p>
-</footer>
-
+  </body>
 </html>
