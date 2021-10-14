@@ -8,8 +8,9 @@ body
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Comfortaa', cursive;
 }
-.logo
+.logo, #secret-header
 {
     text-align: center;
     padding-top: .5em;
@@ -22,10 +23,6 @@ h1, h2, h3, h4
     padding-bottom: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p, label, legend
-{
-    font-family: 'Comfortaa', cursive !important;
-}
 footer
 {
     color: white;
@@ -33,22 +30,14 @@ footer
     padding-right: 1em;
     padding-top: 1em;
 }
-a:link 
+a:link, a:hover, a:focus, a:visited   
 {
-    color: darkgreen;
+    color: darkred;
     font-family: 'Comfortaa', cursive;
 }
 a:active 
 {
     color: darkorange !important;
-}
-a:visited 
-{
-    color: darkgreen;
-}
-a:hover, a:focus 
-{
-    color: darkred !important;
 }
 .center 
 {
@@ -73,7 +62,7 @@ a:hover, a:focus
 {
     padding: 7em;
 }
-.normal-text
+.order-complete-text
 {
     font-size: 2em;
     text-align: center;
@@ -126,42 +115,42 @@ a:hover, a:focus
     width: 75%;
     height: 75%;
 }
-#top-right
+#code-top-right
 {
     text-align: right;
     color: black;
 }
-#bottom-right
+#code-bottom-right
 {
     text-align: right;
     color: black;
 }
-#middle
+#code-middle
 {
     text-align: center;
     padding: 2em;
     color: black;
 }
-#middle-left
+#code-middle-left
 {
     padding-left: 25em;
     color: black;
 }
-#right-middle
+#code-right-middle
 {
     text-align: right;
     padding-right: 25em;
     color: black;
 }
-#top-left
+#code-top-left
 {
     color: black;
 }
-#bottom-left
+#code-bottom-left
 {
     color: black;
 }
-#form-2
+#secret-form
 {
     text-align: center;
     margin-left: auto;
